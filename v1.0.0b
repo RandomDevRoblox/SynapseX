@@ -1,0 +1,225 @@
+-- Made by YnwmellyAlowed
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local TextBox = Instance.new("TextBox")
+local TextLabel = Instance.new("TextLabel")
+local Execute = Instance.new("TextButton")
+local Clear = Instance.new("TextButton")
+local OpenFile = Instance.new("TextButton")
+local ExecuteFile = Instance.new("TextButton")
+local SaveFile = Instance.new("TextButton")
+local Attach = Instance.new("TextButton")
+local ScriptHub = Instance.new("TextButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local Owl = Instance.new("TextButton")
+local Close = Instance.new("TextButton")
+local Ray = Instance.new("TextButton")
+local Swear = Instance.new("TextButton")
+local ImageLabel = Instance.new("ImageLabel")
+local Open = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+main.Position = UDim2.new(0.0410820059, 0, 0.19114688, 0)
+main.Size = UDim2.new(0, 955, 0, 333)
+main.Active = true
+main.Draggable = true
+
+TextBox.Parent = main
+TextBox.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+TextBox.Position = UDim2.new(0.0286576357, 0, 0.135703787, 0)
+TextBox.Size = UDim2.new(0, 798, 0, 241)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextSize = 14.000
+
+TextLabel.Parent = main
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.348416299, 0, -0.0150150154, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Synapse X v1.0.0b"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+
+Execute.Name = "Execute"
+Execute.Parent = main
+Execute.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+Execute.Position = UDim2.new(0.0276749954, 0, 0.882882893, 0)
+Execute.Size = UDim2.new(0, 97, 0, 32)
+Execute.Font = Enum.Font.SourceSans
+Execute.Text = "Execute"
+Execute.TextColor3 = Color3.fromRGB(255, 255, 255)
+Execute.TextSize = 14.000
+
+Clear.Name = "Clear"
+Clear.Parent = main
+Clear.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+Clear.Position = UDim2.new(0.137548864, 0, 0.882882893, 0)
+Clear.Size = UDim2.new(0, 97, 0, 32)
+Clear.Font = Enum.Font.SourceSans
+Clear.Text = "Clear"
+Clear.TextColor3 = Color3.fromRGB(255, 255, 255)
+Clear.TextSize = 14.000
+
+OpenFile.Name = "OpenFile"
+OpenFile.Parent = main
+OpenFile.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+OpenFile.Position = UDim2.new(0.246375591, 0, 0.882882893, 0)
+OpenFile.Size = UDim2.new(0, 97, 0, 32)
+OpenFile.Font = Enum.Font.SourceSans
+OpenFile.Text = "Open File"
+OpenFile.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenFile.TextSize = 14.000
+
+ExecuteFile.Name = "ExecuteFile"
+ExecuteFile.Parent = main
+ExecuteFile.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+ExecuteFile.Position = UDim2.new(0.35480082, 0, 0.882882893, 0)
+ExecuteFile.Size = UDim2.new(0, 97, 0, 32)
+ExecuteFile.Font = Enum.Font.SourceSans
+ExecuteFile.Text = "Execute File"
+ExecuteFile.TextColor3 = Color3.fromRGB(255, 255, 255)
+ExecuteFile.TextSize = 14.000
+
+SaveFile.Name = "SaveFile"
+SaveFile.Parent = main
+SaveFile.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+SaveFile.Position = UDim2.new(0.465505004, 0, 0.882882893, 0)
+SaveFile.Size = UDim2.new(0, 97, 0, 32)
+SaveFile.Font = Enum.Font.SourceSans
+SaveFile.Text = "Save File"
+SaveFile.TextColor3 = Color3.fromRGB(255, 255, 255)
+SaveFile.TextSize = 14.000
+
+Attach.Name = "Attach"
+Attach.Parent = main
+Attach.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+Attach.Position = UDim2.new(0.798286796, 0, 0.882882893, 0)
+Attach.Size = UDim2.new(0, 97, 0, 32)
+Attach.Font = Enum.Font.SourceSans
+Attach.Text = "Attach"
+Attach.TextColor3 = Color3.fromRGB(255, 255, 255)
+Attach.TextSize = 14.000
+
+ScriptHub.Name = "ScriptHub"
+ScriptHub.Parent = main
+ScriptHub.BackgroundColor3 = Color3.fromRGB(58, 58, 58)
+ScriptHub.Position = UDim2.new(0.906140208, 0, 0.882882893, 0)
+ScriptHub.Size = UDim2.new(0, 82, 0, 32)
+ScriptHub.Font = Enum.Font.SourceSans
+ScriptHub.Text = "Script Hub"
+ScriptHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+ScriptHub.TextSize = 14.000
+
+TextLabel_2.Parent = main
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+TextLabel_2.Position = UDim2.new(0.87368381, 0, 0.135135129, 0)
+TextLabel_2.Size = UDim2.new(0, 102, 0, 241)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = ""
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 14.000
+
+Owl.Name = "Owl"
+Owl.Parent = main
+Owl.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+Owl.Position = UDim2.new(0.880628288, 0, 0.168168172, 0)
+Owl.Size = UDim2.new(0, 88, 0, 39)
+Owl.Font = Enum.Font.SourceSans
+Owl.Text = "Owl Hub"
+Owl.TextColor3 = Color3.fromRGB(255, 255, 255)
+Owl.TextSize = 14.000
+Owl.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
+
+Close.Name = "Close"
+Close.Parent = main
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.Position = UDim2.new(0.972774863, 0, 0, 0)
+Close.Size = UDim2.new(0, 26, 0, 24)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextSize = 20.000
+
+Ray.Name = "Ray"
+Ray.Parent = main
+Ray.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+Ray.Position = UDim2.new(0.880628288, 0, 0.327327311, 0)
+Ray.Size = UDim2.new(0, 88, 0, 39)
+Ray.Font = Enum.Font.SourceSans
+Ray.Text = "RayX"
+Ray.TextColor3 = Color3.fromRGB(255, 255, 255)
+Ray.TextSize = 14.000
+Ray.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
+end)
+
+Swear.Name = "Swear"
+Swear.Parent = main
+Swear.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+Swear.Position = UDim2.new(0.880628288, 0, 0.492492467, 0)
+Swear.Size = UDim2.new(0, 88, 0, 39)
+Swear.Font = Enum.Font.SourceSans
+Swear.Text = "Swear Gui"
+Swear.TextColor3 = Color3.fromRGB(255, 255, 255)
+Swear.TextSize = 14.000
+Swear.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://the-shed.xyz/roblox/scripts/ChatBypass", true))()
+end)
+
+ImageLabel.Parent = main
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.Size = UDim2.new(0, 42, 0, 45)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=10770392166"
+
+Open.Name = "Open"
+Open.Parent = ScreenGui
+Open.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Open.Position = UDim2.new(0.977062643, 0, 0.281690121, 0)
+Open.Size = UDim2.new(0, 25, 0, 17)
+Open.Font = Enum.Font.SourceSans
+Open.Text = "."
+Open.TextColor3 = Color3.fromRGB(0, 0, 0)
+Open.TextSize = 14.000
+
+-- Scripts:
+
+local function AYXE_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+	
+	
+	
+	
+end
+coroutine.wrap(AYXE_fake_script)()
+local function MGWOYHA_fake_script() -- Open.LocalScript 
+	local script = Instance.new('LocalScript', Open)
+
+	ocal frame = script.Parent.Parent.main  -- change “Test” to the name of the frane
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		end
+	end)
+	
+end
+coroutine.wrap(MGWOYHA_fake_script)()
