@@ -1,6 +1,4 @@
--- Made by YnwmellyAlowed
-
--- Instances:
+-- Updated Version cuz its shit lmao
 
 local ScreenGui = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
@@ -13,17 +11,23 @@ local ExecuteFile = Instance.new("TextButton")
 local SaveFile = Instance.new("TextButton")
 local Attach = Instance.new("TextButton")
 local ScriptHub = Instance.new("TextButton")
-local TextLabel_2 = Instance.new("TextLabel")
-local Owl = Instance.new("TextButton")
 local Close = Instance.new("TextButton")
-local Ray = Instance.new("TextButton")
-local Swear = Instance.new("TextButton")
 local ImageLabel = Instance.new("ImageLabel")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local Owl = Instance.new("TextButton")
+local Swear = Instance.new("TextButton")
+local Ray = Instance.new("TextButton")
+local sus = Instance.new("TextButton")
+local infinite = Instance.new("TextButton")
+local mm2 = Instance.new("TextButton")
+local _11st = Instance.new("TextButton")
+local Rem = Instance.new("TextButton")
 local Open = Instance.new("TextButton")
 
 --Properties:
 
 ScreenGui.Parent = game.CoreGui
+
 main.Name = "main"
 main.Parent = ScreenGui
 main.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
@@ -121,28 +125,6 @@ ScriptHub.Text = "Script Hub"
 ScriptHub.TextColor3 = Color3.fromRGB(255, 255, 255)
 ScriptHub.TextSize = 14.000
 
-TextLabel_2.Parent = main
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
-TextLabel_2.Position = UDim2.new(0.87368381, 0, 0.135135129, 0)
-TextLabel_2.Size = UDim2.new(0, 102, 0, 241)
-TextLabel_2.Font = Enum.Font.SourceSans
-TextLabel_2.Text = ""
-TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_2.TextSize = 14.000
-
-Owl.Name = "Owl"
-Owl.Parent = main
-Owl.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
-Owl.Position = UDim2.new(0.880628288, 0, 0.168168172, 0)
-Owl.Size = UDim2.new(0, 88, 0, 39)
-Owl.Font = Enum.Font.SourceSans
-Owl.Text = "Owl Hub"
-Owl.TextColor3 = Color3.fromRGB(255, 255, 255)
-Owl.TextSize = 14.000
-Owl.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
-end)
-
 Close.Name = "Close"
 Close.Parent = main
 Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -154,24 +136,39 @@ Close.Text = "X"
 Close.TextColor3 = Color3.fromRGB(255, 255, 255)
 Close.TextSize = 20.000
 
-Ray.Name = "Ray"
-Ray.Parent = main
-Ray.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
-Ray.Position = UDim2.new(0.880628288, 0, 0.327327311, 0)
-Ray.Size = UDim2.new(0, 88, 0, 39)
-Ray.Font = Enum.Font.SourceSans
-Ray.Text = "RayX"
-Ray.TextColor3 = Color3.fromRGB(255, 255, 255)
-Ray.TextSize = 14.000
-Ray.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
+ImageLabel.Parent = main
+ImageLabel.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+ImageLabel.BorderColor3 = Color3.fromRGB(57, 57, 57)
+ImageLabel.Size = UDim2.new(0, 48, 0, 39)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=3123961467"
+
+ScrollingFrame.Parent = main
+ScrollingFrame.Active = true
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+ScrollingFrame.BorderColor3 = Color3.fromRGB(57, 57, 57)
+ScrollingFrame.Position = UDim2.new(0.868062854, 0, 0.135135129, 0)
+ScrollingFrame.Size = UDim2.new(0, 118, 0, 241)
+
+Owl.Name = "Owl"
+Owl.Parent = ScrollingFrame
+Owl.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+Owl.BorderColor3 = Color3.fromRGB(57, 57, 57)
+Owl.Position = UDim2.new(0.101694912, 0, 0.011625737, 0)
+Owl.Size = UDim2.new(0, 79, 0, 50)
+Owl.Font = Enum.Font.SourceSans
+Owl.Text = "Owl Hub"
+Owl.TextColor3 = Color3.fromRGB(255, 255, 255)
+Owl.TextSize = 14.000
+Owl.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
 end)
 
 Swear.Name = "Swear"
-Swear.Parent = main
-Swear.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
-Swear.Position = UDim2.new(0.880628288, 0, 0.492492467, 0)
-Swear.Size = UDim2.new(0, 88, 0, 39)
+Swear.Parent = ScrollingFrame
+Swear.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+Swear.BorderColor3 = Color3.fromRGB(57, 57, 57)
+Swear.Position = UDim2.new(0.101694912, 0, 0.101715825, 0)
+Swear.Size = UDim2.new(0, 79, 0, 50)
 Swear.Font = Enum.Font.SourceSans
 Swear.Text = "Swear Gui"
 Swear.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -180,10 +177,97 @@ Swear.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://the-shed.xyz/roblox/scripts/ChatBypass", true))()
 end)
 
-ImageLabel.Parent = main
-ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel.Size = UDim2.new(0, 42, 0, 45)
-ImageLabel.Image = "http://www.roblox.com/asset/?id=10770392166"
+Ray.Name = "Ray"
+Ray.Parent = ScrollingFrame
+Ray.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+Ray.BorderColor3 = Color3.fromRGB(57, 57, 57)
+Ray.Position = UDim2.new(0.101694912, 0, 0.187301412, 0)
+Ray.Size = UDim2.new(0, 79, 0, 50)
+Ray.Font = Enum.Font.SourceSans
+Ray.Text = "Ray X"
+Ray.TextColor3 = Color3.fromRGB(255, 255, 255)
+Ray.TextSize = 14.000
+Ray.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
+end)
+
+sus.Name = "sus"
+sus.Parent = ScrollingFrame
+sus.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+sus.BorderColor3 = Color3.fromRGB(57, 57, 57)
+sus.Position = UDim2.new(0.101694912, 0, 0.274388492, 0)
+sus.Size = UDim2.new(0, 79, 0, 50)
+sus.Font = Enum.Font.SourceSans
+sus.Text = "sus hub"
+sus.TextColor3 = Color3.fromRGB(255, 255, 255)
+sus.TextSize = 14.000
+sus.MouseButton1Down:connect(function()
+	-- ORPLAYZ SHOWCASED THIS SCRIPT, IF SHOWCASED WITHOUT CREDITS OR PERMISSION WILL RESULT IN COPYRIGHT/CHARGES. (LMT.159 LICENCE)
+	-- SUBSCRIBE: https://www.youtube.com/channel/UC1UwUVxrjM2Sb4duUoR6zfA?sub_confirmation=1
+
+
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("ORPLAYZ SCRIPT LOADED" ,"All")
+	game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("Sub To OrPlayz" ,"All")
+
+	loadstring(game:HttpGet(('https://gist.githubusercontent.com/Nilrogram/8b0c8bd710be142f383c71f79279752c/raw/e4fb01a7de7cd498bb53270d2ad191dfab268a88/FE%2520SussyHub'),true))();
+	print"ORPLAYZ SCRIPT LOADED"
+end)
+
+infinite.Name = "infinite"
+infinite.Parent = ScrollingFrame
+infinite.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+infinite.BorderColor3 = Color3.fromRGB(57, 57, 57)
+infinite.Position = UDim2.new(0.101694912, 0, 0.359974086, 0)
+infinite.Size = UDim2.new(0, 79, 0, 50)
+infinite.Font = Enum.Font.SourceSans
+infinite.Text = "infinite yield"
+infinite.TextColor3 = Color3.fromRGB(255, 255, 255)
+infinite.TextSize = 14.000
+infinite.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+mm2.Name = "mm2"
+mm2.Parent = ScrollingFrame
+mm2.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+mm2.BorderColor3 = Color3.fromRGB(57, 57, 57)
+mm2.Position = UDim2.new(0.101694912, 0, 0.447061181, 0)
+mm2.Size = UDim2.new(0, 79, 0, 50)
+mm2.Font = Enum.Font.SourceSans
+mm2.Text = "Eclipse mm2"
+mm2.TextColor3 = Color3.fromRGB(255, 255, 255)
+mm2.TextSize = 14.000
+mm2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Doggo-cryto/EclipseMM2/master/Script", true))()
+end)
+
+_11st.Name = "11st"
+_11st.Parent = ScrollingFrame
+_11st.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+_11st.BorderColor3 = Color3.fromRGB(57, 57, 57)
+_11st.Position = UDim2.new(0.101694912, 0, 0.537151277, 0)
+_11st.Size = UDim2.new(0, 79, 0, 50)
+_11st.Font = Enum.Font.SourceSans
+_11st.Text = "Stranger Things"
+_11st.TextColor3 = Color3.fromRGB(255, 255, 255)
+_11st.TextSize = 14.000
+_11st.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomDevRoblox/Stranger-things-11-script/main/tele"))();
+end)
+
+Rem.Name = "Rem"
+Rem.Parent = ScrollingFrame
+Rem.BackgroundColor3 = Color3.fromRGB(67, 67, 67)
+Rem.BorderColor3 = Color3.fromRGB(57, 57, 57)
+Rem.Position = UDim2.new(0.101694912, 0, 0.627241373, 0)
+Rem.Size = UDim2.new(0, 79, 0, 50)
+Rem.Font = Enum.Font.SourceSans
+Rem.Text = "Rem X"
+Rem.TextColor3 = Color3.fromRGB(255, 255, 255)
+Rem.TextSize = 14.000
+Rem.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomDevRoblox/remx/main/cool"))();
+end)
 
 Open.Name = "Open"
 Open.Parent = ScreenGui
@@ -197,7 +281,7 @@ Open.TextSize = 14.000
 
 -- Scripts:
 
-local function AYXE_fake_script() -- Close.LocalScript 
+local function ADVY_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -208,18 +292,16 @@ local function AYXE_fake_script() -- Close.LocalScript
 	
 	
 end
-coroutine.wrap(AYXE_fake_script)()
-local function MGWOYHA_fake_script() -- Open.LocalScript 
+coroutine.wrap(ADVY_fake_script)()
+local function YZVLGUZ_fake_script() -- Open.LocalScript 
 	local script = Instance.new('LocalScript', Open)
 
-	ocal frame = script.Parent.Parent.main  -- change “Test” to the name of the frane
-	local open = false
-	
 	script.Parent.MouseButton1Click:Connect(function()
-		if frame.Visible == false then
-			frame.Visible = true
-		end
+		script.Parent.Parent.main.Visible = true
 	end)
 	
+	
+	
+	
 end
-coroutine.wrap(MGWOYHA_fake_script)()
+coroutine.wrap(YZVLGUZ_fake_script)()
